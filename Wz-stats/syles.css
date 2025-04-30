@@ -25,6 +25,10 @@ body {
     background-color: grey;
 }
 
+.topthree {
+    color: #ff99cc;
+}
+
 
 #leftbox {
     float: left;
@@ -32,6 +36,7 @@ body {
     height: 400px;
     text-align: center;
     background-color: grey;
+    
 }
 
 #middlebox {
@@ -50,6 +55,11 @@ body {
     text-align: center;
     background-color: grey;
    
+}
+
+.topthree {
+    background-color: grey;
+    font-size: 30px;
 }
 
 ul {
@@ -97,5 +107,6 @@ ul {
     text-align: center;
     background-color: grey;
     border: 2px solid #33ffe3;
-    font-size: 50px;
+    font-size: 20px;
+
 }
