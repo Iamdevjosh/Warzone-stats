@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="SRcalc.css">
+    <script src="javascript.js"></script>
+
+   <ul class="navbar">
+    <li><a href="index.html">Stats</a></li>
+    <li><a href="SRcalc.html">SR Calculator</a></li>
+    <li><a href="login.html">Login</a></li>
+   </ul>
+</head>
+<body>
+    <div id="containercalc">
+        <div>
+            <h1>Ranked SR Calculator</h1>
+            <div class="current">
+                <label for="value1">Starting <span class="sr">SR</span></label>
+                <br />
+                <input type="number" id="value1" />
+              </div>
+            <div class="last">
+                <label for="value2">Current <span class="sr">SR</span></label>
+                <br />
+                <input type="number" id="value2" />
+                <br />
+                <button class="btn" id="calculate" type="button" onclick="myFunction()">
+                  Calculate
+                </button>
+              </div>
+              <div class="calc">
+                <p id="answer">
+                  Your on the day <span class="sr">SR</span> is <br /><span
+                    id="output"
+                  ></span>
+                </p>
+               
+
+              </div>
+        </div>
+    </div>
+</body>
+</html>

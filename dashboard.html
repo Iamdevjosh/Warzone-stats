@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dashboard.css">
+    <title>Dashboard</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div>
+            <h1>Update stats</h1>
+
+        </div>
+        <p id="answer">Your KD is <span id="output"></span> </p>
+
+        <label for="kills" id="kills">Kills</label>
+        <input type="number" id="numbone"><br>
+
+        <label for="Deaths" id="deaths">Deaths</label>
+        <input type="number" id="numbtwo"><br>
+
+
+        <button class="btnkd" id="calculate" type="button" onclick="calcKd()">
+            update
+          </button><br><br>
+
+        <label for="Solo Wins" id="numbone">Solo Wins</label>
+        <input type="number" id="numbone"><br>
+
+        <label for="Solo Wins" id="numbtwo">Duo's Wins</label>
+        <input type="number" id="numbtwo"><br>
+
+        <label for="Trio's Wins" id="numbthree">Trio's Wins</label>
+        <input type="number" id="numbthree"><br>
+
+        <label for="Quad's Wins" id="numbfour">Quad's Wins</label>
+        <input type="number" id="numbfour"><br>
+
+
+        <button class="btn" id="calculatewins" type="button" onclick="totalWin()">
+            update
+          </button>
+
+          <p id="answer">Total Wins<span id="totalWin"></span> </p>
+
+
+
+        <script src="dashboard.js"></script>
+    </div>
+    
+</body>
+</html>
